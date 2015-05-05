@@ -14,7 +14,7 @@ namespace MsSqlQuery.Integration.Test
         }
         private static Uri dbUri()
         {
-            string uriPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().GetName().CodeBase) + @"\AppData\Northwind.sdf";
+            string uriPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().GetName().CodeBase) + @"\Data\Northwind.sdf";
             var result = new Uri(uriPath);
             return result;
         }

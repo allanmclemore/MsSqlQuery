@@ -72,6 +72,7 @@ ipch/
 *.ncb
 *.opensdf
 *.sdf
+!Northwind.sdf
 *.cachefile
 
 # Visual Studio profiler
